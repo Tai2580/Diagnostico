@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #0b76a6;
+	background: #f4f4f4; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+    display:block;
+    margin:auto;
+}
+
+/* Desde acá vamos a dar estilos a la cabecera.*/
+#main-header {
+	background: rgb(248, 0, 0);
+	color: rgb(255, 0, 0);
+	height: 80px;
+}	
+	#main-header a {
+		color: rgb(255, 255, 255);
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: rgb(238, 8, 8);
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #e50404; /* Esta propiedad hace que cuando nos posicionemos en un botón este se coloree.*/
+				}
+
+                #main-content {
+                    background: black;
+                    width: 90%;
+                    max-width: 800px;
+                    margin: 20px auto;
+                    box-shadow: 0 0 10px rgb(255, 3, 3);
+                }
+                
+                    #main-content header,
+                    #main-content .content {
+                        padding: 40px;
+                    }
+
+                    #main-footer {
+                        background: rgb(235, 2, 2);
+                        color: green;
+                        text-align: center;
+                        padding: 20px;
+                        margin-top: 40px;
+                    }
+                        #main-footer p {
+                            margin: 0;
+                        }
+                        
+                        #main-footer a {
+                            color: white;
+                        }
+
+                        #main-header {
+                            background: rgb(249, 3, 3);
+                            color: rgb(92, 3, 165);
+                            height: 80px;
+                            
+                            width: 100%; /* Hacemos que la cabecera ocupe el ancho completo de la página. */
+                            left: 0; /* Posicionamos la cabecera al lado izquierdo. */
+                            top: 0; /* Posicionamos la cabecera pegada arriba. */
+                            position: fixed; /* Hacemos que la cabecera tenga una posición fija. */
+                        }
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            font-family: Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+                            color: rgb(255, 255, 255);
+                            background: #f0f1f0; 
+                            font-size: 1em;
+                            line-height: 1.5em;
+                            
+                            padding-top: 80px; /* Relleno superior igual a la altura de la cabecera.*/
+                        }
